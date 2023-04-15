@@ -7,7 +7,7 @@
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
-        panic!();
+        return;
     }
 
     let my_arr = &[
